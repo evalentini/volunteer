@@ -1,4 +1,8 @@
 Volunteer::Application.routes.draw do
+  get "users/new"
+
+  get "users/profile"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
